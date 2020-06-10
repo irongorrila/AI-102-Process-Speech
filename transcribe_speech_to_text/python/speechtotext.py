@@ -2,7 +2,7 @@ import azure.cognitiveservices.speech as speechsdk
 
 # Creates an instance of a speech config with specified subscription key and service region.
 # Replace with your own subscription key and service region (e.g., "westus").
-speech_key, service_region = "d90a52b5da2b41debad7b762b08befc7", "centralindia"
+speech_key, service_region = "Key", "region"
 speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=service_region)
 
 # Creates an audio configuration that points to an audio file.
